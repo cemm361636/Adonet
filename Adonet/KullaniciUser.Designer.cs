@@ -80,7 +80,7 @@
             this.Kullanıcı.Controls.Add(this.Ad);
             this.Kullanıcı.Location = new System.Drawing.Point(142, 355);
             this.Kullanıcı.Name = "Kullanıcı";
-            this.Kullanıcı.Size = new System.Drawing.Size(688, 277);
+            this.Kullanıcı.Size = new System.Drawing.Size(667, 277);
             this.Kullanıcı.TabIndex = 1;
             this.Kullanıcı.TabStop = false;
             this.Kullanıcı.Text = "Kullanıcı Yönetimi";
