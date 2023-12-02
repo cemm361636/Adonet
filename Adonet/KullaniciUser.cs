@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Adonet
 {
-    public partial class KullaniciUser : Form
+    public partial class KullaniciYonetimi : Form
     {
-        public KullaniciUser()
+        public KullaniciYonetimi()
         {
             InitializeComponent();
         }
@@ -22,6 +22,11 @@ namespace Adonet
         {
 
             dgvKullaniciUser.DataSource = kullaniciDal.KayıtlarDatatableileGetir("select * from Kullanicilar");
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
 
         }
     }

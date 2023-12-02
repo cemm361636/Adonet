@@ -81,15 +81,11 @@
       <DependentUpon>KullaniciGiris.cs</DependentUpon>
     </Compile>
     <Compile Include="KullaniciGirisDAL.cs" />
-    <Compile Include="KullaniciUser.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="KullaniciUser.cs" />
     <Compile Include="KullaniciUser.Designer.cs">
       <DependentUpon>KullaniciUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="KullaniciYonetimi.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Include="KullaniciYonetimi.cs" />
     <Compile Include="KullaniciYonetimi.Designer.cs">
       <DependentUpon>KullaniciYonetimi.cs</DependentUpon>
     </Compile>

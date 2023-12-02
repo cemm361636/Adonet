@@ -59,7 +59,7 @@ namespace Adonet
 
         private void kullanıcıYönetimiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            KullaniciUser kullaniciUser = new KullaniciUser();
+            KullaniciYonetimi kullaniciUser = new KullaniciYonetimi();
             kullaniciUser.ShowDialog();
 
         }
